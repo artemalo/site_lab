@@ -1,0 +1,57 @@
+@font-face {
+	font-family: 'Inter';
+	src: url(../fonts/Inter-VariableFont_opsz.ttf);
+}
+
+@font-face {
+	font-family: 'Fraunces';
+	src: url(../fonts/Fraunces-VariableFont_SOFT.ttf);
+}
+
+html {
+	background-color: white;
+}
+
+body {
+	margin: 0;
+	min-width: 1010px
+}
+
+p, a, li, span, .footer__input-email {
+	font-family: Inter;
+	text-decoration: none;
+	color: #1F1F1F;
+}
+
+p {
+	line-height: 30px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.container {
+	/* max-width: max-content; */
+	padding: 5em 10em;
+}
+
+.link {
+	color: #0070A0;
+}
+
+h1, h2, h3 {
+	font-family: Fraunces;
+	font-weight: normal;
+	color: #1F1F1F;
+	margin: 0;
+}
+
+h1 {
+	font-size: 58px;
+}
+h2 {
+	font-size: 42px;
+}

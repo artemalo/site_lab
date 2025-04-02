@@ -1,0 +1,28 @@
+.main__about-us__info {
+	padding: 2vh 0 2vh 0;
+	display: flex;
+	justify-content: space-between;
+}
+.main__about-us__info h3 {
+	font-family: Fraunces;
+	font-size: 25px;
+}
+.main__about-us__info p {
+	font-size: 15px;
+	line-height: 24px;
+	margin-block-end: 0;
+}
+.main__about-us__info__light {
+	background-color: #FAEA73;
+	margin-right: 32px;
+	padding: 32px;
+}
+.main__about-us__info__cash {
+	background-color: #CCEFF6;
+	margin-right: 32px;
+	padding: 32px;
+}
+.main__about-us__info__ok {
+	background-color: #F7CEDC;
+	padding: 32px;
+}

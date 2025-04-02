@@ -1,0 +1,33 @@
+.main__all-about {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main__all-about__content-h {
+	display: flex	;
+}
+
+.main__all-about__sub-h {
+	font-size: 41px;
+}
+
+.main__all-about__items {
+	display: flex;
+	align-items: flex-end;
+	max-width: max-content;
+	justify-content: flex-end;
+}
+
+.main__all-about__item {
+	max-width: 25%;
+	margin-right: 2em;
+}
+
+.main__all-about__item h3 {
+	font-size: 25px;
+}
+
+.main__all-about__item p {
+	font-size: 15px;
+	line-height: 24px;
+}

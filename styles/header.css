@@ -1,0 +1,39 @@
+header .container {
+	padding-block-start: 0;
+	padding-block-end: 0;
+}
+
+.header__innner, .header__nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.top-menu, .user-menu {
+	display: flex;
+}
+
+.top-menu__item, .user-menu__item {
+	margin-left: 2em;
+}
+
+.user-menu__item {
+	align-items: center;
+	display: flex;
+}
+
+.top-menu__link {
+	display: flex;
+	padding: 10px 20px;
+	color: #33383F;
+	font-size: 15px;
+}
+
+.user-menu__item__book-a-demo {
+	color: white;
+	background-color: #0070A0;
+}
+
+.user-menu__item__sign-in {
+	color: #0070A0;
+}

@@ -1,0 +1,40 @@
+.main__container__track {
+	background-color: #0070A0;
+}
+
+.main__track {
+	display: flex;
+	justify-content: center;
+}
+.main__track figure {
+	margin: 0 9em 0 0;
+}
+.main__track h2, .main__track p, .main__track li, .main__track a {
+	color: white;
+}
+.main__track p {
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.2px;
+}
+
+
+
+.main__track__section {
+	display: flex;
+	flex-direction: column;
+}
+
+.main__track__section ul {
+	margin-left: 25px;
+}
+.main__track__section li {
+	list-style-image: url(../../img/main/track/marker.svg);
+	margin-bottom: 12px;
+	font-size: 16px;
+}
+
+.main__track__section__item-book {
+	margin-top: 20px;
+	padding: 10px 20px;
+}

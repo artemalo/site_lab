@@ -1,0 +1,82 @@
+footer.container {
+	margin-top: 48px;
+}
+
+.footer__wrapper {
+	margin-bottom: 64px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer__otherbox {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+}
+footer a.link {
+	font-size: 13px;
+}
+
+.footer__workers {
+	font-style: normal;
+	margin: 15px 0 0 0;
+}
+
+.footer__item-worker {
+	margin: 0;
+	font-size: 14px;
+}
+
+.footer__title {
+	font-size: 15px;
+}
+
+.footer__info, .footer__admin, .footer__newsletter {
+	margin-left: 8vw;
+	max-width: 216.390625px;
+}
+p.footer__title {
+	margin: 0 0 20px 0;
+}
+
+
+.footer__item {
+	margin-top: 15px;
+}
+.footer__item a {
+	color: #626A72;
+}
+
+.footer__email {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.footer__underline {
+	display: flex;
+	padding: 4em 0 0 0;
+	justify-content: space-between;
+	border-top: 1px solid #DEE5EB;
+}
+span.footer__copy {
+	font-size: 13px;
+}
+.footer__links {
+	display: flex;
+}
+.footer__links_item {
+	margin-left: 15px;
+}
+
+.footer__input-email::placeholder {/*placeholder*/
+	color: #626A72;
+	font-family: Inter;
+	padding-inline-start: 8px;
+}
+
+.footer__input-email {
+	font-size: 13px;
+	border-color: #C2CDD8;
+	border-width: 0 0 1px 0;
+}

@@ -1,0 +1,49 @@
+.main__about-us__book-a-demo {
+	display: flex;
+	justify-content: space-between;
+}
+.main__about-us__book-a-demo__content {
+	align-content: center;
+	max-width: 525px;
+}
+.main__about-us__book-a-demo__content h1 {
+	max-width: 485px;
+}
+.main__about-us__book-a-demo__content p {
+	margin: 0;
+	padding-block-start: 1em;
+	padding-block-end: 1em;
+	font-size: 20px;
+	max-width: 380px;
+}
+.main__about-us__book-a-demo__content a {
+	margin-right: 20px;
+	font-size: 17px;
+}
+.main__about-us__book-a-demo figure {
+	margin: 0;
+}
+
+
+.main__about-us__book-a-demo__items {
+	display: flex;
+	align-items: center;
+	margin: 1em 0; /*???*/
+}
+.main__about-us__book-a-demo__items a {
+	padding: 10px 20px;
+}
+.main__about-us__book-a-demo__item {
+	align-items: center;
+	display: flex;
+}
+.main__about-us__book-a-demo__item-book {
+	color: white;
+	background-color: #0070A0;
+	 /*???*/
+}
+.main__about-us__book-a-demo__item-more {
+	color: #0070A0;
+	display: flex;
+	align-items: center;
+}

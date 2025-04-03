@@ -1,0 +1,17 @@
+.main__your-tasks__p {
+	font-size: 18px;
+	max-width: 55%;
+}
+
+.main__your-tasks__items {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 4em;
+}
+
+.main__your-tasks__item {
+	width: 20%;
+}
+.main__your-tasks__item p {
+	font-size: 16px;
+}

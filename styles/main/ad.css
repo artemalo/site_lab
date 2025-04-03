@@ -1,3 +1,30 @@
 .main__ad {
+	display: grid;
+	padding: 64px 64px 48px 64px;
 	background-color: #E6F7FF;
+}
+
+.main__ad p {
+	font-size: 18px;
+	line-height: 27px;
+	max-width: 45%;
+}
+
+.main__ad__container__item-book{
+	margin-top: 28px;
+	margin-bottom: 32px;
+}
+.main__ad a {
+	padding: 8px 32px;
+}
+
+.main__ad__has {
+	display: flex;
+	list-style-image: url(../../img/main/ad/marker.svg);
+	margin-left: 25px;
+	font-size: 13px;
+}
+.main__ad__has li {
+	color: #626A72;
+	margin-right: 57px;
 }

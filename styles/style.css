@@ -21,6 +21,7 @@ p, a, li, span, .footer__input-email {
 	font-family: Inter;
 	text-decoration: none;
 	color: #1F1F1F;
+	letter-spacing: 0.2px;
 }
 
 p {

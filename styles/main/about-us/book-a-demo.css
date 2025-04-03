@@ -18,7 +18,6 @@
 }
 .main__about-us__book-a-demo__content a {
 	margin-right: 20px;
-	font-size: 17px;
 }
 .main__about-us__book-a-demo figure {
 	margin: 0;
@@ -40,7 +39,7 @@
 .main__about-us__book-a-demo__item-book {
 	color: white;
 	background-color: #0070A0;
-	 /*???*/
+	font-size: 17px;
 }
 .main__about-us__book-a-demo__item-more {
 	color: #0070A0;

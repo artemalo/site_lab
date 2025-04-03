@@ -4,10 +4,10 @@
 
 .main__track {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 }
 .main__track figure {
-	margin: 0 9em 0 0;
+	margin: 0 0 0 2em;
 }
 .main__track h2, .main__track p, .main__track li, .main__track a {
 	color: white;
@@ -23,7 +23,13 @@
 .main__track__section {
 	display: flex;
 	flex-direction: column;
+	max-width: 32%;
 }
+
+.main__track__section h2 {
+	max-width: 80%;
+}
+
 
 .main__track__section ul {
 	margin-left: 25px;
@@ -36,5 +42,7 @@
 
 .main__track__section__item-book {
 	margin-top: 20px;
+}
+.main__track__section__item-book a {
 	padding: 10px 20px;
 }
